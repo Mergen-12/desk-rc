@@ -1,0 +1,12 @@
+Download the gnome theme and icons pack and install them to /usr/share/icons and /usr/share/themes
+gtk themes
+- https://github.com/dracula/gtk/archive/master.zip
+
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+
+icons
+- https://github.com/dracula/gtk/files/5214870/Dracula.zip
+gsettings set org.gnome.desktop.interface icon-theme "Dracula"
+
+
